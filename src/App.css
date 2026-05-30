@@ -1,0 +1,89 @@
+.Container{
+  overflow: hidden;
+}
+.col-lft{
+  background-color: #23c228;
+}
+.header h1{
+  color: #4CAF50;
+  text-align: center;
+  margin-top: 30px;
+}
+.header .card{  
+  border-radius: 20px;
+  margin-top: 50px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(83, 252, 31, 0.19);
+  margin-bottom: 50px;
+}
+.add-todo{ 
+  margin-top: 20px;
+}
+.add-todo input{
+  width: 37%;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  border: #cec8c8 solid 1px;
+  padding: 5px;
+  margin-left: 20px;
+}
+.primaryBtn{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(83, 252, 31, 0.19);
+}
+.primaryBtn:hover{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 20px;
+  color: white;
+  padding: 15px 32px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(83, 252, 31, 0.19);
+}
+.sub-btn button{
+  background-color: #4CAF50;
+  border: none;
+  border-radius: 10px;
+  color: white;
+  padding: 9px 10px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  cursor: pointer;
+  box-shadow: 0 4px 8px 0 #00000033, 0 6px 20px 0 rgba(83, 252, 31, 0.19);
+
+}
+.sub-icons{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  font-size: 20px;
+  color:#4CAF50;
+  cursor: pointer;
+}
+.todo-list-item{
+  margin-top: 20px;
+  margin-bottom: 20px;
+  border-radius: 10px;
+  background-color: #ecebeb;
+  border: gainsboro solid 1px;
+  padding: 5px;
+  margin-left: 20px;
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(83, 252, 31, 0.19);
+}
